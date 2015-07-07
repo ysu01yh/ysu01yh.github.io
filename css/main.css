@@ -1,4 +1,4 @@
-/**
+﻿/**
  *  gobal全局样式
  * ----------------------
  *  作者：叼怎么写！
@@ -510,4 +510,8 @@ textarea:focus,input:focus { border: 1px solid #71b643; }
   margin: 1em;
   text-align: left;
   text-indent: 2em;
+}
+span.center{
+    display: block;
+    text-align: center;
 }
