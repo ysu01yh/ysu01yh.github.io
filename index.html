@@ -15,19 +15,18 @@
 
 <body class="s-bg-ddd pc no-3d" style="-webkit-user-select: none;">
 	<section>
-	<button class="BTN" type="button" onclick="click()">点我</button>
+	<button class="BTN" type="button" onclick="window.webkit.messageHandlers.webViewApp.postMessage(message);">点我</button>
     </section>
 
 </body>
 <script>
 
-function click(){
 	var message = {
 				'method' : 'hello',
 				'param1' : 'liuyanwei',
 				};
 				
-	window.webkit.messageHandlers.webViewApp.postMessage(message);
-}
+	
+
 </script>
 </html>
