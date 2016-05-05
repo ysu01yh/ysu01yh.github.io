@@ -20,11 +20,14 @@
 
 </body>
 <script>
-var message = {
+
+function click(){
+	var message = {
 				'method' : 'hello',
 				'param1' : 'liuyanwei',
 				};
 				
-var click = window.webkit.messageHandlers.webViewApp.postMessage(message);
+	window.webkit.messageHandlers.webViewApp.postMessage(message);
+}
 </script>
 </html>
